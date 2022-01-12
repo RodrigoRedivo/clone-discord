@@ -16,7 +16,10 @@ export const UserInfo: React.FC = () => {
     <Container>
       <Profile>
         <Avatar />
-        <UserData />
+        <UserData>
+          <strong>Rodrigo Redivo</strong>
+          <span>#6077</span>
+        </UserData>
       </Profile>
 
       <Icons>
