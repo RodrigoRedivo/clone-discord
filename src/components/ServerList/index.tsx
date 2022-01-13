@@ -11,27 +11,27 @@ export const ServerList: React.FC = () => {
 
       <Separator />
 
-      <ServerButton />
-      <ServerButton hasNotifications />
-      <ServerButton mentions={3} />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton hasNotifications />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton mentions={7} />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton mentions={17} />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton />
-      <ServerButton />
+      <ServerButton isHome />
+      <ServerButton isHome hasNotifications />
+      <ServerButton isHome mentions={3} />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome hasNotifications />
+      <ServerButton isHome />
+      <ServerButton isHome/>
+      <ServerButton isHome mentions={7} />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome mentions={17} />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome />
+      <ServerButton isHome />
     </Container>
   )
 };

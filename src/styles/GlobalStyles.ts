@@ -35,7 +35,5 @@ export default createGlobalStyle `
     --mention-detail: #f9a839;
     --mention-message: #413f3f;
     --link: #5d80d6;
-    --rocketseat: #6633cc;
-    --dark: #90909
   }
 `;
